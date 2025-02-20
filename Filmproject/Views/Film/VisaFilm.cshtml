@@ -1,0 +1,19 @@
+﻿@model Filmproject_2.Models.Film
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Visa  @Html.DisplayFor(m => m.Titel)</title>
+</head>
+<body>
+    <div>
+        <strong>Titel: </strong>@Html.DisplayFor(m => m.Titel)<br />
+        <strong>Åldersgräns: </strong>@Html.DisplayFor(m => m.Åldersgräns)
+    </div>
+</body>
+</html>
